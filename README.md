@@ -10,7 +10,7 @@ Proyek ini dibuat untuk memenuhi tugas mata kuliah yang berfokus pada teknik pen
 
 ### Tugas 1: Scraping Daftar Berita dari `detik.com`
 
-## Latar Belakang Pemilihan `detik.com` 📰
+# Latar Belakang Pemilihan `detik.com` 
 
 Saya memilih **`detik.com`** untuk tugas pertama karena beberapa alasan:
 
@@ -18,7 +18,7 @@ Saya memilih **`detik.com`** untuk tugas pertama karena beberapa alasan:
 * **Strukturnya Rapi:** Halaman utama Detik menggunakan struktur HTML yang konsisten, di mana setiap "blok" berita dibungkus dalam tag `<article>`. Ini sangat mempermudah program untuk menemukan dan memilah-milah berita satu per satu.
 * **Metadata yang Kaya:** Selain judul, setiap blok berita di halaman utama juga seringkali menyertakan ringkasan, nama penulis, dan waktu tayang, sesuai dengan syarat tugas untuk mengumpulkan metadata sebanyak mungkin.
 
-## Penjelasan Rinci Alur Kode
+# Penjelasan Rinci Alur Kode
 
 Kode untuk tugas ini dirancang untuk "memborong" semua daftar berita yang ada di halaman utama `detik.com`. Berikut adalah cara kerjanya langkah demi langkah:
 
@@ -46,7 +46,7 @@ Kode untuk tugas ini dirancang untuk "memborong" semua daftar berita yang ada di
 
 ### Tugas 2: Scraping Keyword "Prabowo" dari Media Sosial
 
-## Latar Belakang Pemilihan Keyword "Prabowo" 🗣️
+# Latar Belakang Pemilihan Keyword "Prabowo" 🗣
 
 Untuk tugas kedua, saya memilih kata kunci **"Prabowo"** karena:
 
@@ -54,7 +54,7 @@ Untuk tugas kedua, saya memilih kata kunci **"Prabowo"** karena:
 * **Memenuhi Kebutuhan Volume Data:** Popularitas topik ini memudahkan pencapaian target minimal **1.000 baris data** seperti yang disyaratkan tugas.
 * **Potensi Analisis yang Kaya:** Data percakapan publik ini sangat kaya akan opini. Ini membuka peluang besar untuk analisis lanjutan seperti analisis sentimen (positif, negatif, netral) atau pemetaan isu-isu kebijakan yang sedang ramai dibicarakan.
 
-## Cara Kerja Menggunakan `Tweet Harvest` di Google Colab
+# Cara Kerja Menggunakan `Tweet Harvest` di Google Colab
 
 Tugas kedua dieksekusi menggunakan *tool* **Tweet Harvest** di dalam lingkungan **Google Colaboratory**. Pendekatan ini dipilih karena praktis dan tidak memerlukan instalasi di komputer pribadi. Berikut alur kerjanya sesuai *notebook* yang dibuat:
 
