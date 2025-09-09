@@ -1,7 +1,5 @@
 #### Tugas-1-Social-Media-Analysis
 
-
-
 ### Proyek Scraping Data Berita dan Media Sosial
 
 Proyek ini dibuat untuk memenuhi tugas mata kuliah yang berfokus pada teknik pengumpulan data dari web (*web scraping*). Terdapat dua tugas utama: (1) Mengambil daftar berita dari portal berita `detik.com`, dan (2) Mengumpulkan data percakapan dari media sosial berdasarkan kata kunci "Prabowo".
