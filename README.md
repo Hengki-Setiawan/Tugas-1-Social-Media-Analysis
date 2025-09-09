@@ -41,7 +41,7 @@ Kode untuk tugas ini dirancang untuk "memborong" semua daftar berita yang ada di
 
 
 ### Tugas 2: Scraping Keyword "Prabowo" dari Media Sosial
-# Latar Belakang Pemilihan Keyword "Prabowo" 🗣
+# Latar Belakang Pemilihan Keyword "Prabowo" 
 
 Untuk tugas kedua, saya memilih kata kunci **"Prabowo"** karena:
 
