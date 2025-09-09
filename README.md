@@ -1,4 +1,4 @@
-#### Tugas-1-Social-Media-Analysis
+#### Tugas 1 Social Media Analysis
 
 ### Proyek Scraping Data Berita dan Media Sosial
 
