@@ -1,4 +1,4 @@
-Tugas 1: Scraping Daftar Berita dari Portal Berita
+# Tugas 1: Scraping Daftar Berita dari Portal Berita
 Latar Belakang Pemilihan Portal Berita
 Saya memilih dua portal berita populer, detik.com dan cnnindonesia.com, untuk tugas ini dengan beberapa pertimbangan strategis:
 
@@ -6,7 +6,7 @@ Struktur yang Mirip Namun Berbeda: Keduanya menggunakan tag <article> untuk memb
 
 Kekayaan dan Variasi Data: Keduanya adalah situs berita besar dengan puluhan artikel di halaman depan. detik.com kaya akan metadata seperti penulis dan ringkasan, sementara cnnindonesia.com menonjolkan kategori berita. Mengambil data dari keduanya memberikan variasi data yang lebih menarik untuk dianalisis.
 
-Penjelasan Rinci Alur Kode
+# Penjelasan Rinci Alur Kode
 Kode untuk tugas ini dirancang untuk "memborong" semua daftar berita yang ada di halaman utama kedua situs tersebut. Berikut adalah cara kerjanya secara umum, beserta adaptasi untuk tiap situs:
 
 1. Persiapan Alat 
@@ -22,13 +22,13 @@ Skrip akan mengakses URL target (baik Detik maupun CNN), kemudian perintah soup.
 3. "Membongkar" Setiap Artikel (Adaptasi per Situs) 
 Di sinilah penyesuaian utama terjadi. Meskipun prosesnya sama (melakukan perulangan untuk memeriksa setiap <article>), "resep" atau selector yang digunakan untuk mengambil data spesifik berbeda:
 
-Untuk detik.com:
+# Untuk detik.com:
 
-Judul: Dicari di dalam tag <h2> atau <h3> dengan kelas media__title.
+Judul: Dicari di dalam tag <h2> atau <h3> dengan kelas media title.
 
-Metadata: Informasi seperti publication_time, author, dan summary diambil dari tag <span> dan <p> dengan kelas spesifik mereka.
+Metadata: Informasi seperti publication time, author, dan summary diambil dari tag <span> dan <p> dengan kelas spesifik mereka.
 
-Untuk cnnindonesia.com:
+# Untuk cnnindonesia.com:
 
 Judul: Langsung dicari di dalam tag <h2>.
 
