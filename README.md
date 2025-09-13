@@ -31,9 +31,9 @@ Metadata: Informasi seperti publication_time, author, dan summary diambil dari t
 
 # Untuk cnnindonesia.com:
 
-Judul: Langsung dicari di dalam tag <h2>.
+Judul: Langsung dicari di dalam tag <h2>
 
-Metadata: Fokusnya adalah mengambil kategori dari tag <span> dengan kelas text-cnn_red. Metadata lain seperti penulis dan ringkasan tidak tersedia di halaman utama, sehingga diisi nilai default.
+Metadata: Fokusnya adalah mengambil kategori dari tag <span> dengan kelas text-cnn_red, Metadata lain seperti penulis dan ringkasan tidak tersedia di halaman utama, sehingga diisi nilai default.
 
 Mengumpulkan dan Mengekspor Hasil:
 Setiap set data dari satu artikel (baik dari Detik maupun CNN) dibundel ke dalam sebuah dictionary, lalu dimasukkan ke dalam list besar collected_data. Terakhir, data ini diekspor menjadi tiga format berbeda: .json, .csv, dan .xlsx agar mudah diolah lebih lanjut.
